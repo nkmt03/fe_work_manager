@@ -1,0 +1,24 @@
+name: fe_work_manager
+description: Frontend for Work Manager app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2           # Gọi API
+  provider: ^6.1.2       # Quản lý trạng thái
+  shared_preferences: ^2.3.2  # Lưu sessionId
+  intl: ^0.19.0          # Định dạng ngày giờ
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
